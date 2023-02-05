@@ -19,7 +19,7 @@ You might want to reduce the scope of helm account based on your security requir
 
 ```
 kubectl apply -f helm-rbac.yaml
-helm init --service-account helm 
+helm  --service-account helm 
 ```
 
 Note: for existing helm installs, use `--upgrade` to add new service account
