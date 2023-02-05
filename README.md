@@ -33,8 +33,8 @@ cd helm
 
 kubectl create namespace monitoring
 
-helm install --name kube-prometheus prometheus -f ../values.yaml --namespace monitoring
-helm install --name kube-grafana grafana -f ../values.yaml --namespace monitoring
+helm install  kube-prometheus prometheus -f ../values.yaml --namespace monitoring
+helm install  kube-grafana grafana -f ../values.yaml --namespace monitoring
 
 ```
 
